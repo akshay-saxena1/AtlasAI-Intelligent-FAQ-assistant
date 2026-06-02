@@ -68,7 +68,7 @@ python -m spacy download en_core_web_sm
 python -m backend.seed_db
 
 # Start the API server
-uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn backend.main:app --reload --host 0.0.0.0 --port 7860
 ```
 
 ### 2. Frontend Setup
@@ -91,8 +91,8 @@ docker-compose up --build
 
 Access:
 - **Frontend:** http://localhost:3000 (Docker) or http://localhost:5173 (dev)
-- **Backend API:** http://localhost:8000
-- **API Docs:** http://localhost:8000/docs
+- **Backend API:** http://localhost:7860
+- **API Docs:** http://localhost:7860/docs
 
 ---
 
@@ -180,7 +180,7 @@ gcloud builds submit --config=cloudbuild.yaml
 gcloud run deploy faq-chatbot-backend \
   --source=./backend \
   --region=us-central1 \
-  --port=8000 \
+  --port=7860 \
   --allow-unauthenticated
 ```
 

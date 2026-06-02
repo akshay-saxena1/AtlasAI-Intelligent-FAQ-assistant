@@ -13,13 +13,13 @@ services:
       dockerfile: Dockerfile
     container_name: faq-chatbot-backend
     ports:
-      - "8000:8000"
+      - "7860:7860"
     volumes:
       - db-data:/app/backend
     environment:
       - CORS_ORIGINS=["http://localhost:3000","http://localhost:5173"]
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:7860/health')"]
       interval: 30s
       timeout: 10s
       retries: 3
