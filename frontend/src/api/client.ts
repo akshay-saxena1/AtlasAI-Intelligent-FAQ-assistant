@@ -96,7 +96,7 @@ export interface ChatHistoryItem {
 
 // API Client
 const api: AxiosInstance = axios.create({
-  baseURL: '/api',
+  baseURL: '[https://akshay2904-atlasai-backend.hf.space](https://akshay2904-atlasai-backend.hf.space)',
   timeout: 30000,
   headers: { 'Content-Type': 'application/json' },
 });
