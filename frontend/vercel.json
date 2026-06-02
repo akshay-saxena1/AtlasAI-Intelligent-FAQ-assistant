@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:match*",
+            "destination": "https://akshay2904-atlasai-backend.hf.space/api/:match*"
+        }
+    ]
+}
