@@ -1,7 +1,7 @@
 # CodeAlpha FAQ Chatbot — Production SaaS Application
 
 > **TASK 2: Chatbot for FAQs** | CodeAlpha Internship  
-> **Registration ID:** `Akshay Saxena`
+> **Registration ID:** `Akshay Saxena , 25BCE10224`
 
 A production-grade, GPU-accelerated FAQ chatbot with a hybrid NLP search engine, Liquid Glass UI, admin analytics dashboard, and full Docker/Cloud Run deployment infrastructure.
 
@@ -189,7 +189,7 @@ gcloud run deploy faq-chatbot-backend \
 ## 📜 License & Attribution
 
 **CodeAlpha Internship** — Task 2: Chatbot for FAQs  
-**Registration ID:** `Akshay Saxena`  
+**Registration ID:** `Akshay Saxena , 25BCE10224 `  
 **Tech Stack:** FastAPI · React 18 · TypeScript · SQLite · SpaCy · Sentence Transformers · PyTorch CUDA · Tailwind CSS · Framer Motion · Recharts
 
 ---
