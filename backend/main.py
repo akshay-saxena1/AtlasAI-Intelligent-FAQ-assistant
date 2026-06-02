@@ -6,7 +6,7 @@ loading, search engine fitting), and mounts all API route modules.
 
 Author: CodeAlpha Intern | Registration ID: Akshay Saxena
 """
-
+import uvicorn
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
@@ -132,3 +132,5 @@ async def health_check() -> dict[str, str]:
     Space Complexity: O(1)
     """
     return {"status": "healthy", "service": settings.app_name}
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=7860)
